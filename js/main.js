@@ -1,7 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const productList = document.getElementById('product-list');
     const searchInput = document.getElementById('searchInput');
+    const loader = document.getElementById('loader'); 
     let allProducts = [];
+
+    loader.classList.add('active');
 
     // Fetch products from JSON
     fetch('js/products.json')
@@ -9,6 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             allProducts = data;
             displayProducts(allProducts);
+        })
+        .catch(error => {
+            productList.innerHTML = 'Failed to load products.';
+            console.error('Fetch error:', error);
+        })
+        .finally(() => {
+            loader.classList.remove('active');
         });
 
     function displayProducts(products) {
@@ -19,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
-                <p>ราคา: ${product.price} บาท</p>
+               <p>ราคา: ${Number(product.price).toLocaleString()} บาท</p>
             `;
             productList.appendChild(card);
         });

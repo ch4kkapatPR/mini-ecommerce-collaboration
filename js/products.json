@@ -1,6 +1,8 @@
 [
-    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "https://placehold.co/150/FF0000/FFFFFF?text=T-Shirt"},
-    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "https://placehold.co/150/0000FF/FFFFFF?text=Shoes"},
-    {"id": 3, "name": "Smart Watch", "price": 3500, "image": "https://placehold.co/150/00FF00/FFFFFF?text=Watch"},
-    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "https://placehold.co/150/FFFF00/000000?text=Jeans"}
+    {"id": 1, "name": "Teio Shirt", "price": 100000, "image": "https://cdn.suruga-ya.com/database/pics_webp/game/609328129.jpg.webp"},
+    {"id": 2, "name": "Horse Shoes", "price": 5000, "image": "https://s3.amazonaws.com/wp-s3-thehorse.com/wp-content/uploads/2023/07/22163705/Horse-with-hind-shoes-Getty.jpg"},
+    {"id": 3, "name": "Ben 10 Watch", "price": 5000000000000000000, "image": "https://d2q7r0rjkm1t8k.cloudfront.net/uplister/images/c73a4648c1b2dbbf010ba9791e25bd0f.png"},
+    {"id": 4, "name": "Uma Men's underwear", "price": 6000, "image": "https://m.media-amazon.com/images/I/71wjxJfCJ5L._UY1000_.jpg"},
+    {"id": 5, "name": "Barbie Backpack", "price": 100, "image": "https://assets.central.co.th//adobe/dynamicmedia/deliver/dm-aid--00c36d41-df14-4b99-8997-d66ba57dd2ba/kidsteens-girlbackpackbarbiesize15in-cds695350-1.jpg?quality=85&preferwebp=true&width=550"},
+    {"id": 6, "name": "Michael Jackson's Glasses", "price": 50000, "image": "https://ih1.redbubble.net/image.4860287138.6291/fposter,small,wall_texture,product,750x1000.u3.jpg"}
 ]
