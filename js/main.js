@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Inefficient Search
+    // Inefficient Search without typing
     searchInput.addEventListener('keyup', () => {
         const searchTerm = searchInput.value.trim().toLowerCase(); {
-            if (searchInput.value == "")
+            if (searchInput.value == " ")
                 return products;
         }
         const filteredProducts = allProducts.filter(product => {
